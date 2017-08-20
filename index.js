@@ -1,4 +1,4 @@
-function canculation(m, n, x, c) {
+function calculation(m, n, x, c) {
   const q = x / 100; // вероятноcть получить бракованное видео
   if (q === 1) throw Error; // выбросить ошибку, если вероятность брака 100%
   const p2 = 0.99; // желаемая вероятность получить небракованное видео
@@ -12,4 +12,4 @@ function canculation(m, n, x, c) {
   // с / (m/n) - количество серверов для каждого формата
 }
 
-module.exports = canculation;
+module.exports = calculation;
